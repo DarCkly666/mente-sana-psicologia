@@ -34,7 +34,7 @@ export default function MainSection() {
   }, [cursorPosition]);
   return (
     <section
-      className={`flex flex-col-reverse md:flex-row items-center justify-center min-h-screen w-full p-6 sm:px-12 md:px-20 ${fontPoppins.className} relative gap-10 md:gap-0 bg-gradient-to-r from-gradient-start to-gradient-end md:pb-32`}
+      className={`flex flex-col-reverse md:flex-row items-center justify-center min-h-screen w-full px-6 sm:px-12 md:px-20 lg:px-32 xl:px-72 ${fontPoppins.className} relative gap-10 md:gap-0 bg-gradient-to-r from-gradient-start to-gradient-end`}
     >
       <div className="w-full py-10 sm:py-5 md:py-0 md:w-1/2 md:min-h-screen flex gap-4 flex-col justify-center z-30">
         <h1 className="text-white text-5xl font-bold">
@@ -80,7 +80,10 @@ export default function MainSection() {
             objectFit="contain"
           />
         </div>
-        <div ref={cursorRef} className="absolute w-11/12 h-96 bottom-0 z-10">
+        <div
+          ref={cursorRef}
+          className="absolute w-11/12 h-96 bottom-0 md:bottom-32 z-10"
+        >
           <span className="absolute w-16 h-16 left-0 top-0 md:w-20 md:h-20 rounded-full bg-slate-400 inline-block"></span>
           <span className="absolute w-60 h-60 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:w-80 md:h-80 rounded-full bg-slate-400 inline-block"></span>
           <span className="absolute w-32 h-32 bottom-0 right-0 md:w-40 md:h-40 rounded-full bg-slate-400 inline-block"></span>

@@ -6,3 +6,10 @@ export const fontPoppins = Poppins({
   variable: "--poppins-400",
   subsets: ["latin"],
 });
+
+export const fontPoppins700 = Poppins({
+  display: "swap",
+  weight: "700",
+  variable: "--poppins-700",
+  subsets: ["latin"],
+});
