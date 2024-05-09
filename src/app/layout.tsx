@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="bg-gradient-to-r from-gradient-start to-gradient-end min-h-screen">
+        <main className="min-h-screen">
           <Navbar />
           {children}
         </main>
