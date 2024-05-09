@@ -34,7 +34,7 @@ export default function MainSection() {
   }, [cursorPosition]);
   return (
     <section
-      className={`flex flex-col-reverse md:flex-row items-center justify-center min-h-screen w-full px-6 sm:px-12 md:px-20 lg:px-32 xl:px-72 ${fontPoppins.className} relative gap-10 md:gap-0 bg-gradient-to-r from-gradient-start to-gradient-end`}
+      className={`flex flex-col-reverse md:flex-row items-center justify-center min-h-screen w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 ${fontPoppins.className} relative gap-10 md:gap-0 bg-gradient-to-r from-gradient-start to-gradient-end`}
     >
       <div className="w-full py-10 sm:py-5 md:py-0 md:w-1/2 md:min-h-screen flex gap-4 flex-col justify-center z-30">
         <h1 className="text-white text-5xl font-bold">

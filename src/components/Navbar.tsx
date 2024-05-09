@@ -60,7 +60,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`nav fixed top-0 w-full p-6 sm:px-12 sm:py-5 md:px-20 lg:px-32 xl:px-72 md:py-8 flex justify-between items-center ${
+      className={`nav fixed top-0 w-full p-6 sm:px-12 sm:py-5 md:px-20 lg:px-32 2xl:px-72 md:py-8 flex justify-between items-center ${
         isScrolled ? "bg-white shadow" : "bg-transparent"
       } transition-all duration-500 z-50`}
     >
