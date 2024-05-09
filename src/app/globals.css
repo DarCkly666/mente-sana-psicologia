@@ -18,3 +18,13 @@
   opacity: 1;
   display: block;
 }
+
+/* Btn como funciona */
+.btn_howitworks:hover span:nth-child(1){
+  background-color: #f5f5f5;
+  color: #175cff;
+}
+
+.btn_howitworks:hover span:nth-child(2){
+  color: #f5f5f5;
+}

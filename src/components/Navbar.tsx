@@ -60,15 +60,20 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`nav fixed top-0 w-full p-6 sm:px-12 sm:py-5 md:px-24 md:py-8 flex justify-between items-center ${
+      className={`nav fixed top-0 w-full p-6 sm:px-12 sm:py-5 md:px-20 md:py-8 flex justify-between items-center ${
         isScrolled ? "bg-white shadow" : "bg-transparent"
-      } transition-all duration-700 z-50`}
+      } transition-all duration-500 z-50`}
     >
-      <a href="" className="text-2xl font-bold text-white">
+      <a
+        href=""
+        className={`text-2xl font-bold ${
+          isScrolled ? "text-slate-900" : "text-white"
+        }`}
+      >
         Mente Sana
       </a>
       <div
-        className={`text-white cursor-pointer md:hidden ${
+        className={`cursor-pointer md:hidden ${
           isScrolled ? "text-slate-900" : "text-white"
         }`}
         onClick={() => {
