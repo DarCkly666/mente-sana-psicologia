@@ -18,7 +18,7 @@ export default function PorQueCard({
   const { color, title, buttonTitle, description, pathTo, image } =
     PorQueCardProps;
   return (
-    <div className={`col-span-1 p-12 rounded-xl ${color}/40`}>
+    <div className={`col-span-1 p-12 rounded-xl ${color}`}>
       <div className="flex">
         <div className="w-4/5 flex flex-col justify-between items-start">
           <h3 className="text-2xl">{title}</h3>

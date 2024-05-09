@@ -3,7 +3,7 @@ import PorQueCard, { PorQueCardProps } from "./PorQueCard";
 export default function PorQueSection() {
   const dataCards: Array<PorQueCardProps> = [
     {
-      color: "bg-red-300",
+      color: "bg-red-300/40",
       title: "Comodidad",
       buttonTitle: "Agendar Cita",
       description:
@@ -12,7 +12,7 @@ export default function PorQueSection() {
       image: "/images/img1.png",
     },
     {
-      color: "bg-blue-300",
+      color: "bg-blue-300/40",
       title: "Mejor Precio",
       buttonTitle: "Planes y Precios",
       description:
@@ -21,7 +21,7 @@ export default function PorQueSection() {
       image: "/images/img2.png",
     },
     {
-      color: "bg-blue-300",
+      color: "bg-blue-300/40",
       title: "Personalización",
       buttonTitle: "Ver Tratamientos",
       description:
@@ -30,7 +30,7 @@ export default function PorQueSection() {
       image: "/images/img3.png",
     },
     {
-      color: "bg-red-300",
+      color: "bg-red-300/40",
       title: "Anonimato",
       buttonTitle: "Sobre Nosotros",
       description:
