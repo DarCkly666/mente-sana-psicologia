@@ -41,7 +41,7 @@ export default function PorQueSection() {
   ];
   return (
     <section
-      className={`w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 py-32 ${fontPoppins700.className} bg-gray-100`}
+      className={`w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 py-32 bg-gray-100 ${fontPoppins700.className}`}
     >
       <div className="w-full flex flex-col items-center text-dark-blue">
         <h2 className="text-4xl">¿Por qué elegir Mente Sana?</h2>

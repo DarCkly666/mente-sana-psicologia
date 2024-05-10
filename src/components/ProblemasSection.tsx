@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function ProblemasSection() {
   return (
     <section
-      className={`w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 py-32 ${fontPoppins300.className} bg-gray-50`}
+      className={`w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 py-32 ${fontPoppins300.className} bg-gray-100`}
     >
       <div className="w-full flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 space-y-6 flex flex-col items-start">
