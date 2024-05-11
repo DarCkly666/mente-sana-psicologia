@@ -5,6 +5,7 @@ import PlanesPreciosSection from "@/components/PlanesPreciosSection";
 import PorQueSection from "@/components/PorQueSection";
 import ProblemasSection from "@/components/ProblemasSection";
 import SolicitaSection from "@/components/SolicitaSection";
+import FaqSection from "@/components/sections/FaqSection";
 import TestimoniosSection from "@/components/sections/TestimoniosSection";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <NuestrosPsicologosSection />
       <PlanesPreciosSection />
       <TestimoniosSection />
+      <FaqSection />
     </>
   );
 }
