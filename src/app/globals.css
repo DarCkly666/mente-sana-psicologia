@@ -28,3 +28,8 @@
 .btn_howitworks:hover span:nth-child(2){
   color: #f5f5f5;
 }
+
+/* Cards Testimonios */
+.input__testimonio:checked + label{
+  border-color: rgba(255, 255, 255, 0.5);
+}

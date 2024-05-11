@@ -5,6 +5,7 @@ import PlanesPreciosSection from "@/components/PlanesPreciosSection";
 import PorQueSection from "@/components/PorQueSection";
 import ProblemasSection from "@/components/ProblemasSection";
 import SolicitaSection from "@/components/SolicitaSection";
+import TestimoniosSection from "@/components/sections/TestimoniosSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <SolicitaSection />
       <NuestrosPsicologosSection />
       <PlanesPreciosSection />
+      <TestimoniosSection />
     </>
   );
 }
