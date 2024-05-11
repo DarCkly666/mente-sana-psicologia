@@ -1,5 +1,6 @@
 import ConfianSection from "@/components/ConfianSection";
 import MainSection from "@/components/MainSection";
+import NuestrosPsicologosSection from "@/components/NuestrosPsicologosSection";
 import PorQueSection from "@/components/PorQueSection";
 import ProblemasSection from "@/components/ProblemasSection";
 import SolicitaSection from "@/components/SolicitaSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <ConfianSection />
       <ProblemasSection />
       <SolicitaSection />
+      <NuestrosPsicologosSection />
     </>
   );
 }

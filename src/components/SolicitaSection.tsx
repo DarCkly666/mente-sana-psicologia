@@ -7,7 +7,7 @@ export default function SolicitaSection() {
     <section
       className={`w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 bg-gray-100 ${fontPoppins300.className}`}
     >
-      <div className="w-full flex flex-col items-center bg-dark-blue p-24 rounded-3xl gap-4 relative overflow-hidden">
+      <div className="w-full flex flex-col items-center bg-dark-blue p-12 md:p-24 rounded-3xl gap-4 relative overflow-hidden">
         <span className="w-48 h-48 bg-blue-900/20 rounded-full absolute -left-28 -bottom-28"></span>
         <span className="w-60 h-60 bg-yellow-500 rounded-full absolute -right-32 -top-32"></span>
         <p className="text-yellow-600 font-bold text-lg">
@@ -20,11 +20,11 @@ export default function SolicitaSection() {
           href="#"
           className="px-6 py-3 bg-light-blue text-white text-bold rounded shadow border border-light-blue hover:bg-transparent hover:border hover:border-white transition-all duration-300 mt-5"
         >
-          Quiero mi sesión gratuita
+          Cambia tu vida ahora
         </Link>
         <div className="w-full">
-          <ul className="w-full flex flex-col justify-center md:flex-row md:justify-between md:flex-wrap">
-            <li className="flex items-center justify-center gap-1 text-white text-sm">
+          <ul className="w-full flex flex-col gap-2 justify-center md:flex-row md:justify-between md:flex-wrap">
+            <li className="flex items-start md:items-center justify-center gap-1 text-white text-sm">
               <span className="bg-gray-500/50 rounded-full p-0.5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function SolicitaSection() {
               </span>
               Tu primera sesión es gratis
             </li>
-            <li className="flex items-center justify-center gap-1 text-white text-sm">
+            <li className="flex items-start md:items-center justify-center gap-1 text-white text-sm">
               <span className="bg-gray-500/50 rounded-full p-0.5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ export default function SolicitaSection() {
               </span>
               Reserva una fecha y hora a tu gusto
             </li>
-            <li className="flex items-center justify-center gap-1 text-white text-sm">
+            <li className="flex items-start md:items-center justify-center gap-1 text-white text-sm">
               <span className="bg-gray-500/50 rounded-full p-0.5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
