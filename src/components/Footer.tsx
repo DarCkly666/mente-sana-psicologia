@@ -19,9 +19,9 @@ export default function Footer() {
             Políticas
           </h3>
           <ul className="space-y-2">
-            <li>Política de Privacidad</li>
-            <li>Política de Cookies</li>
-            <li>Términos y Condiciones</li>
+            <li className="hover:text-white">Política de Privacidad</li>
+            <li className="hover:text-white">Política de Cookies</li>
+            <li className="hover:text-white">Términos y Condiciones</li>
           </ul>
         </div>
         <div>
@@ -29,10 +29,10 @@ export default function Footer() {
             Tratamientos
           </h3>
           <ul className="space-y-2">
-            <li>Ansiedad y Depresión</li>
-            <li>Autoestima</li>
-            <li>Psicología Infantil</li>
-            <li>Duelo</li>
+            <li className="hover:text-white">Ansiedad y Depresión</li>
+            <li className="hover:text-white">Autoestima</li>
+            <li className="hover:text-white">Psicología Infantil</li>
+            <li className="hover:text-white">Duelo</li>
           </ul>
         </div>
         <div>
@@ -40,9 +40,9 @@ export default function Footer() {
             Tratamientos
           </h3>
           <ul className="space-y-2">
-            <li>Ámbito Laboral</li>
-            <li>Terapia de Parejas</li>
-            <li>Drogodependencias</li>
+            <li className="hover:text-white">Ámbito Laboral</li>
+            <li className="hover:text-white">Terapia de Parejas</li>
+            <li className="hover:text-white">Drogodependencias</li>
           </ul>
         </div>
       </div>
@@ -97,6 +97,32 @@ export default function Footer() {
           © 2022 Mente Sana - Todos los derechos reservados
         </p>
       </div>
+      <span className="fixed bottom-5 right-5 z-40 flex items-center">
+        <span className="mr-3 bg-gray-100 shadow px-2 rounded text-black font-bold">
+          <small>Ir a WhatsApp</small>
+        </span>
+        <a
+          href="https://web.whatsapp.com/send?phone=34613128041&text=Hola%21%2C+quiero+hablar+con+algui%C3%A9n"
+          className="p-2 bg-green-500 rounded-full hover:animate-none hover:scale-110 transition-all duration-300 ease-in-out shadow-lg animate-pulse"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+            <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+          </svg>
+        </a>
+      </span>
     </footer>
   );
 }
