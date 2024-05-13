@@ -67,11 +67,14 @@ export default function Navbar() {
     >
       <a
         href="/"
-        className={`text-2xl font-bold ${
+        className={`text-2xl font-bold flex flex-col ${
           isScrolled ? "text-slate-900" : "text-white"
         }`}
       >
-        Mente Sana
+        Fotaleza
+        <small className="text-sm font-normal">
+          Centro de psicología integral
+        </small>
       </a>
       <div
         className={`cursor-pointer md:hidden ${
