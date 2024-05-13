@@ -1,7 +1,13 @@
 import SintomaItem from "@/components/sections/SintomaItem";
 import { fontPoppins, fontPoppins300, fontPoppins700 } from "@/utils/MyFonts";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Nostros",
+  description: "Conoce más sobre nosotros y nuestro trabajo.",
+};
 
 export default function PsicologiaInfantil() {
   return (
