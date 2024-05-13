@@ -2,6 +2,7 @@
 import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import { fontPoppins } from "@/utils/MyFonts";
+import { Fade, Slide } from "react-awesome-reveal";
 
 type CursorPosition = {
   x: number;
@@ -37,14 +38,18 @@ export default function MainSection() {
       className={`flex flex-col-reverse md:flex-row items-center justify-center min-h-screen w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 ${fontPoppins.className} relative gap-10 md:gap-0 bg-gradient-to-r from-gradient-start to-gradient-end`}
     >
       <div className="w-full py-10 sm:py-5 md:py-0 md:w-1/2 md:min-h-screen flex gap-4 flex-col justify-center z-30">
-        <h1 className="text-white text-3xl md:text-5xl font-bold">
-          Tu psicólogo <br />
-          online dónde estés, cuándo quieras.
-        </h1>
-        <p className="text-gray-400 text-lg md:text-xl">
-          Dar el primer paso puede ser difícil. Recibe una 1 sesión de 1 hora,
-          gratis, sin compromiso y anónima. ¡Queremos escucharte!
-        </p>
+        <Slide>
+          <h1 className="text-white text-3xl md:text-5xl font-bold">
+            Tu psicólogo <br />
+            online dónde estés, cuándo quieras.
+          </h1>
+        </Slide>
+        <Slide direction="right">
+          <p className="text-gray-400 text-lg md:text-xl">
+            Dar el primer paso puede ser difícil. Recibe una 1 sesión de 1 hora,
+            gratis, sin compromiso y anónima. ¡Queremos escucharte!
+          </p>
+        </Slide>
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <button className="px-6 py-3 bg-light-blue text-white text-bold rounded shadow border border-light-blue hover:bg-transparent hover:border hover:border-white transition-all duration-300">
             Quiero mi sesión gratuita
@@ -73,12 +78,14 @@ export default function MainSection() {
 
       <div className="w-11/12 md:w-1/2 min-h-96 my-16 md:my-0 md:min-h-screen relative">
         <div className="absolute bottom-0 w-full h-3/4 z-20">
-          <Image
-            src="/main_image.png"
-            alt="Main section image"
-            layout="fill"
-            objectFit="contain"
-          />
+          <Fade triggerOnce>
+            <Image
+              src="/main_image.png"
+              alt="Main section image"
+              layout="fill"
+              objectFit="contain"
+            />
+          </Fade>
         </div>
         <div
           ref={cursorRef}

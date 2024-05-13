@@ -231,8 +231,9 @@ export default function Navbar() {
             >
               <li>
                 <Link
-                  href=""
+                  href="/"
                   className="uppercase hover:bg-slate-600/10 rounded px-2 py-1 block"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   Inicio
                 </Link>
@@ -265,6 +266,7 @@ export default function Navbar() {
                     <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
                       href="ansiedad-depresion"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       Ansiedad & Depresión
                     </Link>
