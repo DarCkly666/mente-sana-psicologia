@@ -21,13 +21,13 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2">
             <li className="hover:text-white">
-              <Link href="#">Política de Privacidad</Link>
+              <Link href="politica-de-privacidad">Política de Privacidad</Link>
             </li>
             <li className="hover:text-white">
-              <Link href="#">Política de Cookies</Link>
+              <Link href="politica-de-cookies">Política de Cookies</Link>
             </li>
             <li className="hover:text-white">
-              <Link href="#">Términos y Condiciones</Link>
+              <Link href="terminos-condiciones">Términos y Condiciones</Link>
             </li>
           </ul>
         </div>
@@ -40,13 +40,13 @@ export default function Footer() {
               <Link href="ansiedad-depresion">Ansiedad y Depresión</Link>
             </li>
             <li className="hover:text-white">
-              <Link href="#">Autoestima</Link>
+              <Link href="autoestima">Autoestima</Link>
             </li>
             <li className="hover:text-white">
-              <Link href="#">Psicología Infantil</Link>
+              <Link href="psicologia-infantil">Psicología Infantil</Link>
             </li>
             <li className="hover:text-white">
-              <Link href="#">Duelo</Link>
+              <Link href="duelo">Duelo</Link>
             </li>
           </ul>
         </div>
@@ -56,13 +56,13 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2">
             <li className="hover:text-white">
-              <Link href="#">Ámbito Laboral</Link>
+              <Link href="ambito-social-laboral">Ámbito Laboral</Link>
             </li>
             <li className="hover:text-white">
-              <Link href="#">Terapia de Parejas</Link>
+              <Link href="terapia-de-pareja">Terapia de Parejas</Link>
             </li>
             <li className="hover:text-white">
-              <Link href="#">Drogodependencias</Link>
+              <Link href="drogodependencia">Drogodependencias</Link>
             </li>
           </ul>
         </div>

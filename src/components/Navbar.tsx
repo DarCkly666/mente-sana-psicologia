@@ -142,32 +142,47 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-light-blue w-full block" href="#">
+              <Link
+                className="hover:text-light-blue w-full block"
+                href="psicologia-infantil"
+              >
                 Psicología Infantil
               </Link>
             </li>
             <li>
-              <Link className="hover:text-light-blue w-full block" href="#">
+              <Link className="hover:text-light-blue w-full block" href="duelo">
                 Duelo
               </Link>
             </li>
             <li>
-              <Link className="hover:text-light-blue w-full block" href="#">
+              <Link
+                className="hover:text-light-blue w-full block"
+                href="autoestima"
+              >
                 Autoestima
               </Link>
             </li>
             <li>
-              <Link className="hover:text-light-blue w-full block" href="#">
+              <Link
+                className="hover:text-light-blue w-full block"
+                href="ambito-social-laboral"
+              >
                 Ámbito Social/Laboral
               </Link>
             </li>
             <li>
-              <Link className="hover:text-light-blue w-full block" href="#">
+              <Link
+                className="hover:text-light-blue w-full block"
+                href="terapia-de-pareja"
+              >
                 Terapia De Pareja
               </Link>
             </li>
             <li>
-              <Link className="hover:text-light-blue w-full block" href="#">
+              <Link
+                className="hover:text-light-blue w-full block"
+                href="drogodependencia"
+              >
                 Drogodependencia
               </Link>
             </li>
@@ -175,7 +190,7 @@ export default function Navbar() {
         </li>
         <li>
           <Link
-            href="#nosotros"
+            href="nosotros"
             className={`${
               isScrolled ? "hover:text-light-blue" : "hover:text-white"
             }`}
@@ -185,7 +200,7 @@ export default function Navbar() {
         </li>
         <li>
           <Link
-            href="#"
+            href="#testimonios"
             className={`${
               isScrolled ? "hover:text-light-blue" : "hover:text-white"
             }`}
@@ -199,7 +214,7 @@ export default function Navbar() {
         <div className="fixed md:hidden left-0 top-0 w-screen h-screen bg-black/70">
           <div className="flex flex-col w-full sm:w-96 h-screen bg-white">
             <div className="p-6 flex items-center justify-between border-b">
-              <a href="" className="text-2xl">
+              <a href="/" className="text-2xl">
                 Mente Sana
               </a>
               <div
@@ -274,7 +289,8 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
-                      href="#"
+                      href="psicologia-infantil"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       Psicología Infantil
                     </Link>
@@ -282,7 +298,8 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
-                      href="#"
+                      href="duelo"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       Duelo
                     </Link>
@@ -290,7 +307,8 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
-                      href="#"
+                      href="autoestima"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       Autoestima
                     </Link>
@@ -298,7 +316,8 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
-                      href="#"
+                      href="ambito-social-laboral"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       Ámbito Social/Laboral
                     </Link>
@@ -306,7 +325,8 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
-                      href="#"
+                      href="terapia-de-pareja"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       Terapia De Pareja
                     </Link>
@@ -314,7 +334,8 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
-                      href="#"
+                      href="drogodependencia"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       Drogodependencia
                     </Link>
@@ -323,16 +344,18 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="nostros"
                   className="uppercase hover:bg-slate-600/10 rounded px-2 py-1 block"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   Nosotros
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="#testimonios"
                   className="uppercase hover:bg-slate-600/10 rounded px-2 py-1 block"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   Testimonios
                 </Link>
