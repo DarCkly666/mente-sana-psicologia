@@ -26,7 +26,7 @@ export default function PorQueSection() {
       buttonTitle: "Ver Tratamientos",
       description:
         "Encontramos al especialista más adecuado para ti y que mejor se adapte a tus horarios",
-      pathTo: "#",
+      pathTo: "#problemascomunes",
       image: "/images/img3.png",
     },
     {
@@ -35,7 +35,7 @@ export default function PorQueSection() {
       buttonTitle: "Sobre Nosotros",
       description:
         "Disfruta de las sesiones con tu psicólogo de manera segura y privada a través de un ordenador o móvil",
-      pathTo: "#",
+      pathTo: "nosotros",
       image: "/images/img4.png",
     },
   ];

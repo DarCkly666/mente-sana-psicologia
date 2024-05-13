@@ -8,6 +8,7 @@ export default function ProblemasSection() {
   return (
     <section
       className={`w-full px-6 sm:px-12 md:px-20 lg:px-32 2xl:px-72 py-32 ${fontPoppins300.className} bg-gray-100`}
+      id="problemascomunes"
     >
       <div className="w-full flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 space-y-6 flex flex-col items-start">
@@ -40,14 +41,26 @@ export default function ProblemasSection() {
                 title="Ansiedad/Depresión"
                 pathTo="ansiedad-depresion"
               />
-              <ProblemaItem title="Terapia de Pareja" pathTo="#" />
-              <ProblemaItem title="Autoestima" pathTo="#" />
-              <ProblemaItem title="Psicología Infantil" pathTo="#" />
+              <ProblemaItem
+                title="Terapia de Pareja"
+                pathTo="terapia-de-pareja"
+              />
+              <ProblemaItem title="Autoestima" pathTo="autoestima" />
+              <ProblemaItem
+                title="Psicología Infantil"
+                pathTo="psicologia-infantil"
+              />
             </ul>
             <ul className="space-y-3">
-              <ProblemaItem title="Duelo" pathTo="#" />
-              <ProblemaItem title="Ámbito Laboral/Social" pathTo="#" />
-              <ProblemaItem title="Drogodependencia" pathTo="#" />
+              <ProblemaItem title="Duelo" pathTo="duelo" />
+              <ProblemaItem
+                title="Ámbito Laboral/Social"
+                pathTo="ambito-social-laboral"
+              />
+              <ProblemaItem
+                title="Drogodependencia"
+                pathTo="drogodependencia"
+              />
             </ul>
           </div>
           <div>
