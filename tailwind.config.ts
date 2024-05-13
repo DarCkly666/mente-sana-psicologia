@@ -15,9 +15,9 @@ const config: Config = {
       },
       colors: {
         "nav-text": "#FFFFFF",
-        "gradient-start": "#021048",
-        "gradient-end": "#1e38a3",
-        "dark-blue": "#071c4d",
+        "gradient-start": "#0077B6",
+        "gradient-end": "#90E0EF",
+        "dark-blue": "#0077B6",
         "light-blue": "#175cff",
         "middle-blue": "#0a1a86",
       },
