@@ -1,5 +1,6 @@
 "use client";
 import { Poppins } from "next/font/google";
+import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 const poppins = Poppins({
   display: "swap",
@@ -65,7 +66,7 @@ export default function Navbar() {
       } transition-all duration-500 z-50`}
     >
       <a
-        href=""
+        href="/"
         className={`text-2xl font-bold ${
           isScrolled ? "text-slate-900" : "text-white"
         }`}
@@ -104,17 +105,17 @@ export default function Navbar() {
         } ${poppins.className}`}
       >
         <li>
-          <a
-            href=""
+          <Link
+            href="/"
             className={`${
               isScrolled ? "hover:text-light-blue" : "hover:text-white"
             }`}
           >
             Inicio
-          </a>
+          </Link>
         </li>
         <li className="relative menu__item--submenu">
-          <a
+          <Link
             href="#"
             className={`${
               isScrolled ? "hover:text-light-blue" : "hover:text-white"
@@ -130,64 +131,67 @@ export default function Navbar() {
             >
               <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
             </svg>
-          </a>
+          </Link>
           <ul className="bg-white shadow text-gray-500 space-y-3 rounded absolute -left-1/2 md:w-72 w-full submenu__container">
             <li>
-              <a className="hover:text-light-blue w-full block" href="#">
+              <Link
+                className="hover:text-light-blue w-full block"
+                href="ansiedad-depresion"
+              >
                 Ansiedad & Depresión
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-light-blue w-full block" href="#">
+              <Link className="hover:text-light-blue w-full block" href="#">
                 Psicología Infantil
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-light-blue w-full block" href="#">
+              <Link className="hover:text-light-blue w-full block" href="#">
                 Duelo
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-light-blue w-full block" href="#">
+              <Link className="hover:text-light-blue w-full block" href="#">
                 Autoestima
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-light-blue w-full block" href="#">
+              <Link className="hover:text-light-blue w-full block" href="#">
                 Ámbito Social/Laboral
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-light-blue w-full block" href="#">
+              <Link className="hover:text-light-blue w-full block" href="#">
                 Terapia De Pareja
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-light-blue w-full block" href="#">
+              <Link className="hover:text-light-blue w-full block" href="#">
                 Drogodependencia
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li>
-          <a
+          <Link
             href="#nosotros"
             className={`${
               isScrolled ? "hover:text-light-blue" : "hover:text-white"
             }`}
           >
             Nosotros
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="#"
             className={`${
               isScrolled ? "hover:text-light-blue" : "hover:text-white"
             }`}
           >
             Testimonios
-          </a>
+          </Link>
         </li>
       </ul>
 
@@ -226,15 +230,16 @@ export default function Navbar() {
               className={`flex flex-col h-full gap-1 p-4 text-sm ${poppins.className}`}
             >
               <li>
-                <a
+                <Link
                   href=""
                   className="uppercase hover:bg-slate-600/10 rounded px-2 py-1 block"
                 >
                   Inicio
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a
+                <Link
+                  href="#"
                   className="flex gap-1 items-center justify-between uppercase hover:bg-slate-600/10 rounded px-2 py-1 cursor-pointer"
                   onClick={() => {
                     setIsSubmenuOpen(!isSubmenuOpen);
@@ -250,85 +255,85 @@ export default function Navbar() {
                   >
                     <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
                   </svg>
-                </a>
+                </Link>
                 <ul
                   className={`w-full flex flex-col gap-1 transition-all delay-1000 overflow-hidden pl-4 ${
                     isSubmenuOpen ? "max-h-max" : "max-h-0"
                   }`}
                 >
                   <li className="mt-1">
-                    <a
+                    <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
-                      href="#"
+                      href="ansiedad-depresion"
                     >
                       Ansiedad & Depresión
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
                       href="#"
                     >
                       Psicología Infantil
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
                       href="#"
                     >
                       Duelo
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
                       href="#"
                     >
                       Autoestima
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
                       href="#"
                     >
                       Ámbito Social/Laboral
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
                       href="#"
                     >
                       Terapia De Pareja
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="w-full block capitalize hover:bg-slate-600/10 rounded px-2 py-1"
                       href="#"
                     >
                       Drogodependencia
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="uppercase hover:bg-slate-600/10 rounded px-2 py-1 block"
                 >
                   Nosotros
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="uppercase hover:bg-slate-600/10 rounded px-2 py-1 block"
                 >
                   Testimonios
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

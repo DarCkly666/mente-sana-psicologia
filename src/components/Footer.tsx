@@ -4,6 +4,7 @@ import {
   fontPoppins500,
   fontPoppins700,
 } from "@/utils/MyFonts";
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
@@ -19,9 +20,15 @@ export default function Footer() {
             Políticas
           </h3>
           <ul className="space-y-2">
-            <li className="hover:text-white">Política de Privacidad</li>
-            <li className="hover:text-white">Política de Cookies</li>
-            <li className="hover:text-white">Términos y Condiciones</li>
+            <li className="hover:text-white">
+              <Link href="#">Política de Privacidad</Link>
+            </li>
+            <li className="hover:text-white">
+              <Link href="#">Política de Cookies</Link>
+            </li>
+            <li className="hover:text-white">
+              <Link href="#">Términos y Condiciones</Link>
+            </li>
           </ul>
         </div>
         <div>
@@ -29,10 +36,18 @@ export default function Footer() {
             Tratamientos
           </h3>
           <ul className="space-y-2">
-            <li className="hover:text-white">Ansiedad y Depresión</li>
-            <li className="hover:text-white">Autoestima</li>
-            <li className="hover:text-white">Psicología Infantil</li>
-            <li className="hover:text-white">Duelo</li>
+            <li className="hover:text-white">
+              <Link href="ansiedad-depresion">Ansiedad y Depresión</Link>
+            </li>
+            <li className="hover:text-white">
+              <Link href="#">Autoestima</Link>
+            </li>
+            <li className="hover:text-white">
+              <Link href="#">Psicología Infantil</Link>
+            </li>
+            <li className="hover:text-white">
+              <Link href="#">Duelo</Link>
+            </li>
           </ul>
         </div>
         <div>
@@ -40,9 +55,15 @@ export default function Footer() {
             Tratamientos
           </h3>
           <ul className="space-y-2">
-            <li className="hover:text-white">Ámbito Laboral</li>
-            <li className="hover:text-white">Terapia de Parejas</li>
-            <li className="hover:text-white">Drogodependencias</li>
+            <li className="hover:text-white">
+              <Link href="#">Ámbito Laboral</Link>
+            </li>
+            <li className="hover:text-white">
+              <Link href="#">Terapia de Parejas</Link>
+            </li>
+            <li className="hover:text-white">
+              <Link href="#">Drogodependencias</Link>
+            </li>
           </ul>
         </div>
       </div>

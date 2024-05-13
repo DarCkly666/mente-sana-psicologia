@@ -36,7 +36,10 @@ export default function ProblemasSection() {
           </p>
           <div className="space-y-3 md:space-y-0 md:space-x-3 flex flex-col md:flex-row items-start">
             <ul className="space-y-3">
-              <ProblemaItem title="Ansiedad/Depresión" pathTo="#" />
+              <ProblemaItem
+                title="Ansiedad/Depresión"
+                pathTo="ansiedad-depresion"
+              />
               <ProblemaItem title="Terapia de Pareja" pathTo="#" />
               <ProblemaItem title="Autoestima" pathTo="#" />
               <ProblemaItem title="Psicología Infantil" pathTo="#" />
