@@ -115,7 +115,7 @@ export default function Footer() {
       </div>
       <div className="flex justify-center px-6 py-6 border-t border-gray-700 text-gray-500">
         <p className="text-center">
-          © 2022 Mente Sana - Todos los derechos reservados
+          © 2022 PS - Todos los derechos reservados
         </p>
       </div>
       <span className="fixed bottom-5 right-5 z-40 flex items-center">
@@ -123,7 +123,7 @@ export default function Footer() {
           <small>Ir a WhatsApp</small>
         </span>
         <a
-          href="https://web.whatsapp.com/send?phone=34613128041&text=Hola%21%2C+quiero+hablar+con+algui%C3%A9n"
+          href="https://web.whatsapp.com/send?phone=+59112345678&text=Hola%21%2C+quiero+hablar+con+algui%C3%A9n"
           className="p-2 bg-green-500 rounded-full hover:animate-none hover:scale-110 transition-all duration-300 ease-in-out shadow-lg animate-pulse"
         >
           <svg

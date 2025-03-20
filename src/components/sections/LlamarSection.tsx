@@ -31,10 +31,10 @@ export default function LlamarSection() {
         </div>
         <div className="flex justify-center">
           <a
-            href="tel:613128041"
+            href="tel:12345678"
             className={`text-green-500 text-3xl md:text-4xl ${fontPoppins700.className}`}
           >
-            +34 613 12 80 41
+            +591 12345678
           </a>
         </div>
       </div>
