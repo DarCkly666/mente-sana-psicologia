@@ -71,7 +71,7 @@ export default function Navbar() {
           isScrolled ? "text-slate-900" : "text-white"
         }`}
       >
-        Fotaleza
+        Psicología
         <small className="text-sm font-normal">
           Centro de psicología integral
         </small>
